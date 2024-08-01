@@ -1,0 +1,176 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How can I help you?",
+        "Greetings! How can I support you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "I am leaving",
+        "Have a nice day"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Take care!",
+        "Bye! Feel free to return if you need any more assistance."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Thanks a lot",
+        "Thank you very much"
+      ],
+      "responses": [
+        "You're welcome!",
+        "No problem!",
+        "My pleasure!",
+        "Glad to help!"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Tell me about this website",
+        "What does this website do",
+        "What services do you offer",
+        "What can I do here"
+      ],
+      "responses": [
+        "This website acts as a bridge between students and providers offering scholarships, internships, and educational resources.",
+        "We help students connect with scholarship agencies, educational NGOs, and companies/startups offering internships.",
+        "Our platform offers a centralized hub for finding scholarships, internships, and governmental programs aimed at helping students."
+      ]
+    },
+    {
+      "tag": "home_navigation",
+      "patterns": [
+        "Take me to the home page",
+        "Go to the home page",
+        "Home page",
+        "Start page"
+      ],
+      "responses": [
+        "Navigating to the home page.",
+        "Taking you to the home page now.",
+        "Redirecting to the home page."
+      ]
+    },
+    {
+      "tag": "login_signup",
+      "patterns": [
+        "How do I sign up",
+        "How do I log in",
+        "Login page",
+        "Sign-up page"
+      ],
+      "responses": [
+        "You can sign up or log in from the login/sign-up page. Let me take you there.",
+        "Sure, I'll direct you to the login/sign-up page.",
+        "Here is the login/sign-up page for you to access your account."
+      ]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": [
+        "Tell me about scholarships",
+        "What scholarships are available",
+        "Scholarship information",
+        "How can I find scholarships"
+      ],
+      "responses": [
+        "We provide information on various scholarships from different agencies to help students.",
+        "You can find details about available scholarships in the scholarships section.",
+        "Let me show you the scholarships page where you can explore different options."
+      ]
+    },
+    {
+      "tag": "internships",
+      "patterns": [
+        "Tell me about internships",
+        "What internships are available",
+        "Internship information",
+        "How can I find internships"
+      ],
+      "responses": [
+        "Our platform connects you with companies and startups offering internships.",
+        "You can find detailed information about available internships in the internships section.",
+        "Let me show you the internships page where you can explore different opportunities."
+      ]
+    },
+    {
+      "tag": "government_programs",
+      "patterns": [
+        "Tell me about governmental programs",
+        "What government programs are available",
+        "Governmental programs information",
+        "How can I find government programs"
+      ],
+      "responses": [
+        "We provide information on various government programs aimed at helping under-privileged students.",
+        "You can find details about governmental programs in the relevant section.",
+        "Let me show you the governmental programs page where you can explore different options."
+      ]
+    },
+    {
+      "tag": "testimonials",
+      "patterns": [
+        "Show me testimonials",
+        "What are the success stories",
+        "Testimonials",
+        "Success stories"
+      ],
+      "responses": [
+        "Here are some success stories from students who have benefited from our platform.",
+        "Check out our testimonials section to see how we've helped other students.",
+        "Let me show you the testimonials page where you can read about our success stories."
+      ]
+    },
+    {
+      "tag": "usp",
+      "patterns": [
+        "What makes this platform unique",
+        "Why should I use this website",
+        "What is the USP of this platform",
+        "Unique selling points",
+        "usp"
+      ],
+      "responses": [
+        "Our platform is a centralized hub that connects students with scholarships, internships, and educational resources, all in one place.",
+        "We streamline the application process, reducing administrative constraints and increasing efficiency.",
+        "Our AI-powered chatbot provides easy interaction, helping students access information quickly and effortlessly."
+      ]
+    },
+    {
+      "tag": "solve_problem",
+      "patterns": [
+        "How does this platform solve problems",
+        "What problems does this website address",
+        "How will it help students",
+        "Problem-solving"
+      ],
+      "responses": [
+        "Our platform solves the administrative burden and paperwork by offering a centralized platform, saving time and effort.",
+        "We address monetary issues by connecting users with suitable NGOs and scholarship programs.",
+        "We reduce the stress of searching for internships by providing a comprehensive list of opportunities."
+      ]
+    }
+  ]
+}
